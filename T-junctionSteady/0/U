@@ -1,0 +1,98 @@
+/*--------------------------------*- C++ -*----------------------------------*\ 
+| =========                 |                                                 | 
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           | 
+|  \\    /   O peration     | Version:  v2012                                 | 
+|   \\  /    A nd           | Website:  www.openfoam.com                      | 
+|    \\/     M anipulation  |                                                 | 
+\*---------------------------------------------------------------------------*/ 
+FoamFile 
+{ 
+    version     2.0; 
+    format      ascii; 
+    class       volVectorField; 
+    object      U; 
+} 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //  
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+	geometry_surface_patch_0
+	{
+		type           fixedValue;
+		value          uniform (0 0 -0.1);
+	}
+
+	geometry_surface_patch_1
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_2
+	{
+		type           fixedValue;
+		value          uniform (-0.1 0 0);
+	}
+
+	geometry_surface_patch_3
+	{
+		type            zeroGradient;
+	}
+
+	geometry_surface_patch_4
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_5
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_6
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_7
+	{
+		type            slip;
+	}
+
+	X_left
+	{
+		type            zeroGradient;
+	}
+
+	X_right
+	{
+		type            zeroGradient;
+	}
+
+	Y_left
+	{
+		type            zeroGradient;
+	}
+
+	Y_right
+	{
+		type            zeroGradient;
+	}
+
+	Z_left
+	{
+		type            zeroGradient;
+	}
+
+	Z_right
+	{
+		type            zeroGradient;
+	}
+
+}
+
+
+// ************************************************************************* //
