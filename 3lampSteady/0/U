@@ -1,0 +1,582 @@
+/*--------------------------------*- C++ -*----------------------------------*\ 
+| =========                 |                                                 | 
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           | 
+|  \\    /   O peration     | Version:  v2012                                 | 
+|   \\  /    A nd           | Website:  www.openfoam.com                      | 
+|    \\/     M anipulation  |                                                 | 
+\*---------------------------------------------------------------------------*/ 
+FoamFile 
+{ 
+    version     2.0; 
+    format      ascii; 
+    class       volVectorField; 
+    object      U; 
+} 
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //  
+
+dimensions      [0 1 -1 0 0 0 0];
+
+internalField   uniform (0 0 0);
+
+boundaryField
+{
+	geometry_surface_patch_0
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_1
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_2
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_3
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_4
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_5
+	{
+		type           fixedValue;
+		value          uniform (0 -0.1 0);
+	}
+
+	geometry_surface_patch_6
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_7
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_8
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_9
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_10
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_11
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_12
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_13
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_14
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_15
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_16
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_17
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_18
+	{
+		type            zeroGradient;
+	}
+
+	geometry_surface_patch_19
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_20
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_21
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_22
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_23
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_24
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_25
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_26
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_27
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_28
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_29
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_30
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_31
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_32
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_33
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_34
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_35
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_36
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_37
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_38
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_39
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_40
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_41
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_42
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_43
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_44
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_45
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_46
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_47
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_48
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_49
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_50
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_51
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_52
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_53
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_54
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_55
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_56
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_57
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_58
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_59
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_60
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_61
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_62
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_63
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_64
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_65
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_66
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_67
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_68
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_69
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_70
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_71
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_72
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_73
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_74
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_75
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_76
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_77
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_78
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_79
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_80
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_81
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_82
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_83
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_84
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_85
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_86
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_87
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_88
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_89
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_90
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_91
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_92
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_93
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_94
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_95
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_96
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_97
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_98
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_99
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_100
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_101
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_102
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_103
+	{
+		type            slip;
+	}
+
+	geometry_surface_patch_104
+	{
+		type            slip;
+	}
+
+	X_left
+	{
+		type            zeroGradient;
+	}
+
+	X_right
+	{
+		type            zeroGradient;
+	}
+
+	Y_left
+	{
+		type            zeroGradient;
+	}
+
+	Y_right
+	{
+		type            zeroGradient;
+	}
+
+	Z_left
+	{
+		type            zeroGradient;
+	}
+
+	Z_right
+	{
+		type            zeroGradient;
+	}
+
+}
+
+
+// ************************************************************************* //
